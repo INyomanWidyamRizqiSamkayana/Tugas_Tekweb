@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menghitung Deret Fibonacci dan Volume Bangun Ruang</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>Nama: I Nyoman Widyam Rizqi Samkayana<br>
+        NIM: 22151010125<br>
+        Menghitung Deret Fibonacci dan Volume Bangun Ruang
+    </h1>
+    <!-- Form untuk menghitung deret Fibonacci -->
+    <div class="calculator">
+        <h2>Deret Fibonacci</h2>
+        <label for="fibonacci-input">Masukkan N:</label>
+        <input type="number" id="fibonacci-input" >
+        <button onclick="calculateFibonacci()">Hitung</button>
+        <p>Hasil: <span id="fibonacci-result" class="result"></span></p>
+    </div>
+    <!-- Form untuk menghitung volume bangun ruang -->
+    <div class="calculator">
+        <h2>Perhitungan Volume Bangun Ruang</h2>
+        <label for="length">Panjang:</label>
+        <input type="number" id="length">
+        <label for="width">Lebar:</label>
+        <input type="number" id="width">
+        <label for="height">Tinggi:</label>
+        <input type="number" id="height">
+        <button onclick="calculateVolume()">Hitung</button>
+        <p>Volume: <span id="volume-result" class="result"></span></p>
+    </div>
+</body>
+</html>

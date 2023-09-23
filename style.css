@@ -1,0 +1,49 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+h1 {
+    color: #000000;
+    text-shadow:0px 2px 3px #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.calculator {
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid #36d800;
+    border-radius: 15px;
+    background-color: #a0ff90;
+    box-shadow: 0px 5px 4px rgba(17, 255, 0, 0.573);
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+button {
+    background-color: #288cff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1039ee;
+}
+span.result {
+    border: 2px solid #2fe30b; /* Warna border yang dapat Anda sesuaikan */
+    padding: 5px; /* Ruang di sekitar teks */
+    display: inline-block; /* Agar border mengelilingi teks */
+    border-radius: 5px; /* Sudut border yang terbulat */
+    background-color: #2fea54; /* Warna latar belakang */
+    font-weight: bold; /* Tebal teks */
+    margin-left: 10px; /* Jarak dari teks sebelumnya */
+}
